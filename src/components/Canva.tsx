@@ -1,5 +1,5 @@
 //@ts-nocheck
-import React, { useRef, useEffect, useReducer, useState } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import interact from 'interactjs';
 import './Canva.css';
 import { Box, Container, Stack } from '@chakra-ui/react';
@@ -247,7 +247,7 @@ const Canva = () => {
     <Box h='83vh'>
       <Lines bodyData={pointData} />
       <Stack direction={['column', 'row']} spacing='24px'>
-        <Container>
+        <Container my='center'>
           <div ref={lShoulderRef} className="lShoulder" onChange={(e) => dispathcer(e, 'LShoulder')} />
           <div ref={lElbowRef} className="lElbow" />
           <div ref={lWristRef} className="lWrist" />

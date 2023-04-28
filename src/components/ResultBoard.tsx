@@ -23,7 +23,7 @@ const ResultBoard = ({ bodyData }: any) => {
     copyToast({
       position: 'bottom-right',
       render: () => (
-        <Box mr={6} color='white' p={3} bg='#6C5A49' borderRadius='12px' display='flex' alignItems='center' justifyContent='left'>
+        <Box my='center' mr={6} color='white' p={3} bg='#6C5A49' borderRadius='12px' display='flex' alignItems='center' justifyContent='left'>
           <HStack spacing={4}>
             <CheckCircleIcon />
             <Text fontSize='lg'>Copied Successed!</Text>
