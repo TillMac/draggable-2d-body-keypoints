@@ -3,7 +3,7 @@ import React from 'react'
 
 const ReadMe = () => {
   return (
-    <Box display='flex' h='83vh'>
+    <Box display='flex'>
       <Tabs w='90vw' ml='auto' mr='auto' mt='8vh'>
         <TabList>
           <Tab>Step.1</Tab>

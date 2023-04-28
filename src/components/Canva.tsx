@@ -244,7 +244,7 @@ const Canva = () => {
   }
 
   return (
-    <Box h='83vh'>
+    <Box>
       <Lines bodyData={pointData} />
       <Stack direction={['column', 'row']} spacing='24px'>
         <Container my='center'>
