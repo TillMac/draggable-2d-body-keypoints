@@ -1,0 +1,128 @@
+/* .star-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  height: 100%;
+}
+#star-demo {
+  display: block;
+  flex-grow: 1;
+  touch-action: none;
+  max-height: 100vw;
+  max-width: 100vw;
+} */
+
+.lShoulder {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  transform: translate(455px, 235px);
+}
+
+.lShoulder::before {
+  content: 'L Shoulder';
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  height: 40px;
+  overflow: hidden;
+  color: gray;
+}
+
+.lElbow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  transform: translate(497px, 487px);
+}
+
+.lElbow::before {
+  content: 'L Elbow';
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  height: 40px;
+  overflow: hidden;
+  color: gray;
+}
+
+.lWrist {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  transform: translate(559px, 700px);
+}
+
+.lWrist::before {
+  content: 'L Wrist';
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  height: 40px;
+  overflow: hidden;
+  color: gray;
+}
+
+.rShoulder {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  transform: translate(116px, 175px);
+}
+
+.rShoulder::before {
+  content: 'R Shoulder';
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  height: 40px;
+  overflow: hidden;
+  color: gray;
+}
+
+.rElbow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  transform: translate(78px, 431px);
+}
+
+.rElbow::before {
+  content: 'R Elbow';
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  height: 40px;
+  overflow: hidden;
+  color: gray;
+}
+
+.rWrist {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  transform: translate(-23px, 635px);
+}
+
+.rWrist::before {
+  content: 'R Wrist';
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  height: 40px;
+  overflow: hidden;
+  color: gray;
+}

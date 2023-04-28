@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Box } from '@chakra-ui/react';
+import Header from './components/Header';
+import Canva from './components/Canva';
+import Footer from './components/Footer';
+import ReadMe from './components/ReadMe';
 
 function App() {
+  const [isCanva, setIsCanva] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box>
+      <Header setIsCanva={setIsCanva} />
+      <Box m={8}>
+        {(isCanva) ? <Canva /> : <ReadMe />}
+      </Box>
+      <Footer />
+    </Box>
   );
 }
 
