@@ -48,8 +48,8 @@ const Canva = () => {
             const target = event.target;
             const x = event.page.x;
             const y = event.page.y;
-            target.setAttribute('data-x', x-320)
-            target.setAttribute('data-y', y-140)
+            target.setAttribute('data-x', x-205)
+            target.setAttribute('data-y', y-125)
           },
           move: dragMoveListener,
           end (event) {
@@ -80,8 +80,8 @@ const Canva = () => {
             const target = event.target;
             const x = event.page.x;
             const y = event.page.y;
-            target.setAttribute('data-x', x-330)
-            target.setAttribute('data-y', y-160)
+            target.setAttribute('data-x', x-205)
+            target.setAttribute('data-y', y-145)
           },
           move: dragMoveListener,
           end (event) {
@@ -112,8 +112,8 @@ const Canva = () => {
             const target = event.target;
             const x = event.page.x;
             const y = event.page.y;
-            target.setAttribute('data-x', x-330)
-            target.setAttribute('data-y', y-185)
+            target.setAttribute('data-x', x-205)
+            target.setAttribute('data-y', y-165)
           },
           move: dragMoveListener,
           end (event) {
@@ -144,8 +144,8 @@ const Canva = () => {
             const target = event.target;
             const x = event.page.x;
             const y = event.page.y;
-            target.setAttribute('data-x', x-325)
-            target.setAttribute('data-y', y-200)
+            target.setAttribute('data-x', x-210)
+            target.setAttribute('data-y', y-190)
           },
           move: dragMoveListener,
           end (event) {
@@ -176,8 +176,8 @@ const Canva = () => {
             const target = event.target;
             const x = event.page.x;
             const y = event.page.y;
-            target.setAttribute('data-x', x-325)
-            target.setAttribute('data-y', y-220)
+            target.setAttribute('data-x', x-200)
+            target.setAttribute('data-y', y-200)
           },
           move: dragMoveListener,
           end (event) {
@@ -208,8 +208,8 @@ const Canva = () => {
             const target = event.target;
             const x = event.page.x;
             const y = event.page.y;
-            target.setAttribute('data-x', x-320)
-            target.setAttribute('data-y', y-240)
+            target.setAttribute('data-x', x-220)
+            target.setAttribute('data-y', y-220)
           },
           move: dragMoveListener,
           end (event) {
