@@ -1,4 +1,4 @@
-import { Button, Center, Flex, Heading, Spacer, Stack } from '@chakra-ui/react'
+import { Button, Center, Flex, Heading, Link, Spacer, Stack } from '@chakra-ui/react'
 import React from 'react'
 import { GitHubIcon } from '../icons/GithubIcon'
 
@@ -25,7 +25,9 @@ const Header = ({ setIsCanva }: Props) => {
       <Spacer />
       <Stack direction='row' spacing={8} align='center' mr={8}>
         <Button variant='solid' onClick={switchToReadme}>How to Use</Button>
-        <GitHubIcon boxSize={8} cursor='pointer' />
+        <Link href='https://github.com/TillMac/draggable-2d-body-keypoints' isExternal>
+          <GitHubIcon boxSize={8} cursor='pointer' />
+        </Link>
       </Stack>
     </Flex>
   )
