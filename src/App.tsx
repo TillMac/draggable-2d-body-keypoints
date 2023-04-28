@@ -11,7 +11,7 @@ function App() {
   return (
     <Box>
       <Header setIsCanva={setIsCanva} />
-      <Box m={8} h='88vh'>
+      <Box m={8} h='82vh'>
         {(isCanva) ? <Canva /> : <ReadMe />}
       </Box>
       <Footer />

@@ -38,7 +38,7 @@ const ResultBoard = ({ bodyData }: any) => {
     <Card w={'50%'} boxShadow='md' variant='outline'>
           <CardHeader>
             <Flex>
-              <Heading size='lg' as='h3' mt='auto' mb='auto'>Results</Heading>
+              <Heading size='lg' as='h3' mt='auto'>Results</Heading>
               <Spacer />
               <Tooltip hasArrow label='Click to copy!' bg='black' fontSize='lg'>
                 <CopyIcon boxSize={8} cursor='pointer' onClick={copyDataHandler} />
@@ -46,7 +46,7 @@ const ResultBoard = ({ bodyData }: any) => {
             </Flex>
           </CardHeader>
           <CardBody>
-            <Textarea h='75vh' isReadOnly={true} resize='none' value={result} />
+            <Textarea h='70.75vh' isReadOnly={true} resize='none' value={result} />
           </CardBody>
         </Card>
   )
