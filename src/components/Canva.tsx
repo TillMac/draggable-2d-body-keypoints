@@ -5,7 +5,6 @@ import './Canva.css';
 import { Box, Container, Stack } from '@chakra-ui/react';
 import ResultBoard from './ResultBoard';
 import Lines from './Lines';
-import { cloneDeep } from 'lodash';
 import { socket } from '../socket';
 
 const initialState = {
@@ -40,7 +39,7 @@ const Canva = () => {
 		if (!socketIsConnected) return;
 		console.log('sending new bodySK data to Avatar via Socket.io');
 		socket.emit('test:model:simulation', pointData);
-	}, [cloneDeep(pointData)]);
+	}, [JSON.stringify(pointData)]);
 
 	useEffect(() => {
 		function onConnect() {
